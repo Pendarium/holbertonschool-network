@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Listens on localhost:98 and prints everything received
 
-# Écoute sur le port 98 de localhost et affiche tout ce qui arrive
+# Use netcat to listen on 127.0.0.2 port 98
 nc -l 127.0.0.2 98
